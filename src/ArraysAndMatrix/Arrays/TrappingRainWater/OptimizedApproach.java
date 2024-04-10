@@ -29,6 +29,5 @@ public class OptimizedApproach {
         int[] arr = {1 ,1, 5, 2, 7, 6, 1, 4, 2, 3};
         int water = getWater(arr, arr.length);
         System.out.println(water);
-
     }
 }

@@ -7,9 +7,9 @@ public class Anagram {
 
     public static boolean isAnagram(String str1, String str2) {
 
-        HashMap<Character,Integer> map = new HashMap<>();
-
         if (str1.length() != str2.length()) return false;
+
+        HashMap<Character,Integer> map = new HashMap<>();
 
         for(char c : str1.toCharArray()){
             map.put(c , map.getOrDefault(c,0)+1);

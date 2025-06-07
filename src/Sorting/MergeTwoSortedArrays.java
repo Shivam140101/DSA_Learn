@@ -17,12 +17,11 @@ public class MergeTwoSortedArrays {
             if (arr[i] < brr[j]) {
                 crr[k] = arr[i];
                 i++;
-                k++;
             } else {
                 crr[k] = brr[j];
                 j++;
-                k++;
             }
+            k++;
         }
         while (i < m){
             crr[k] = arr[i];
